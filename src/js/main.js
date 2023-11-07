@@ -11,7 +11,7 @@ gsap.to("#bg", {
 
 gsap.to("#ysa", {
   scrollTrigger: {
-    scrub: 1,
+    scrub: 0.8,
   },
-  scale: 0.5,
+  scale: 1.2,
 });

@@ -3,6 +3,7 @@
 
 #ysa {
   top: -400;
+  width: 85%;
 }
 
 #portal {
@@ -27,4 +28,9 @@
 
 #midground {
   top: 600;
+}
+
+#foreground {
+  top: 1500;
+  z-index: 10;
 }

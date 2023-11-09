@@ -1,0 +1,27 @@
+.character-presentation {
+  font-size: 200px;
+  color: aliceblue;
+}
+
+.character-presentation_container {
+  background-color: black;
+  position: absolute;
+  width: 100vw;
+}
+
+/*------SPACER------*/
+
+#spacer-bottom {
+  bottom: 0;
+}
+
+#spacer-top {
+  top: 0;
+  z-index: 1;
+}
+
+/*------KING------*/
+
+#king-character {
+  scale: 0.8;
+}

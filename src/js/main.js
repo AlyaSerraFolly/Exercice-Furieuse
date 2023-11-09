@@ -2,64 +2,111 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to("#bg", {
+/*-----top-parallax-----*/
+
+/*------Layer-1------*/
+
+gsap.from("#ysa", {
+  y: 660,
   scrollTrigger: {
-    scrub: 1,
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
+    scale: 1,
   },
-  scale: 1.5,
 });
 
-gsap.to("#ysa", {
+/*------Layer-2------*/
+
+gsap.from("#foreground", {
+  y: 200,
   scrollTrigger: {
-    scrub: 0.8,
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
   },
-  scale: 1.2,
 });
+
+/*------Layer-3------*/
+
+gsap.from("#midground", {
+  y: 300,
+  scrollTrigger: {
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
+  },
+});
+
+/*------Layer-4------*/
+
+gsap.from("#tree-left", {
+  y: 750,
+  scrollTrigger: {
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
+  },
+});
+
+/*------Layer-5------*/
+
+gsap.from("#tree-right", {
+  y: 800,
+  scrollTrigger: {
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
+  },
+});
+
+/*------Layer-6------*/
+
+gsap.from("#castle", {
+  y: 300,
+  scrollTrigger: {
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
+  },
+});
+
+/*------Layer-7------*/
 
 gsap.from("#portal", {
+  y: 100,
   scrollTrigger: {
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "center center",
     markers: true,
     scrub: true,
   },
-  top: "200px",
 });
 
-gsap.to("#tree-left", {
+/*------Layer-8------*/
+
+gsap.from("#bg", {
+  y: 0,
   scrollTrigger: {
+    trigger: "#section-parallax",
+    start: "top top",
+    end: "bottom bottom",
     markers: true,
     scrub: true,
   },
-  top: "00px",
 });
 
-gsap.to("#tree-right", {
-  scrollTrigger: {
-    markers: true,
-    scrub: true,
-  },
-  top: "300px",
-});
-
-gsap.to("#castle", {
-  scrollTrigger: {
-    markers: true,
-    scrub: true,
-  },
-  top: "900px",
-});
-
-gsap.to("#foreground", {
-  scrollTrigger: {
-    markers: true,
-    scrub: true,
-  },
-  top: "500px",
-});
-
-gsap.to("#midground", {
-  scrollTrigger: {
-    markers: true,
-    scrub: true,
-  },
-  top: "200px",
-});
+/*-----bottom-parallax-----*/

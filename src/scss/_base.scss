@@ -9,6 +9,16 @@
 // reset rules
 // ==================================== */
 
+@font-face {
+  font-family: "Katari-Medium";
+  src: url(../fonts/Katari-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Harbour-Regular";
+  src: url(../fonts/Harbour-Regular.ttf) format("woff2");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

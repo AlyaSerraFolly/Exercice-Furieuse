@@ -4,30 +4,29 @@
 #ysa {
   position: absolute;
   bottom: 0;
+  scale: 1.1;
 }
 
 #portal {
   position: absolute;
-  bottom: -300;
-  scale: 0.9;
+  bottom: -380;
 }
 
 #castle {
   position: absolute;
-  bottom: 0;
+  bottom: -200;
 }
 
 #tree-right {
   position: absolute;
-  bottom: 0;
-  scale: 0.8;
-  left: 10%;
+  bottom: -100;
 }
 
 #tree-left {
   position: absolute;
   bottom: 0;
   scale: 0.9;
+  right: 5%;
 }
 
 #midground {

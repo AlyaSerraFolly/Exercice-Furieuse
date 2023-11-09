@@ -7,21 +7,21 @@ gsap.registerPlugin(ScrollTrigger);
 /*------Layer-1------*/
 
 gsap.from("#ysa", {
-  y: 660,
+  y: 800,
   scrollTrigger: {
     trigger: "#section-parallax",
     start: "top top",
     end: "bottom bottom",
     markers: true,
     scrub: true,
-    scale: 1,
   },
+  scale: 1,
 });
 
 /*------Layer-2------*/
 
 gsap.from("#foreground", {
-  y: 200,
+  y: 600,
   scrollTrigger: {
     trigger: "#section-parallax",
     start: "top top",
@@ -34,7 +34,7 @@ gsap.from("#foreground", {
 /*------Layer-3------*/
 
 gsap.from("#midground", {
-  y: 300,
+  y: 500,
   scrollTrigger: {
     trigger: "#section-parallax",
     start: "top top",
@@ -47,7 +47,7 @@ gsap.from("#midground", {
 /*------Layer-4------*/
 
 gsap.from("#tree-left", {
-  y: 750,
+  y: 550,
   scrollTrigger: {
     trigger: "#section-parallax",
     start: "top top",
@@ -60,7 +60,7 @@ gsap.from("#tree-left", {
 /*------Layer-5------*/
 
 gsap.from("#tree-right", {
-  y: 800,
+  y: 350,
   scrollTrigger: {
     trigger: "#section-parallax",
     start: "top top",
@@ -73,7 +73,7 @@ gsap.from("#tree-right", {
 /*------Layer-6------*/
 
 gsap.from("#castle", {
-  y: 300,
+  y: 200,
   scrollTrigger: {
     trigger: "#section-parallax",
     start: "top top",
@@ -90,7 +90,7 @@ gsap.from("#portal", {
   scrollTrigger: {
     trigger: "#section-parallax",
     start: "top top",
-    end: "center center",
+    end: "bottom bottom",
     markers: true,
     scrub: true,
   },

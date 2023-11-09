@@ -43,7 +43,7 @@
 
 #foreground {
   position: absolute;
-  bottom: 300;
+  bottom: -200;
   z-index: 1;
 }
 
@@ -54,4 +54,5 @@
 
 .background-parallax {
   opacity: 1;
+  overflow: hidden;
 }

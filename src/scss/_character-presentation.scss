@@ -1,54 +1,79 @@
-.character-presentation {
-  font-size: 200px;
-  color: aliceblue;
-}
-
-.character-presentation_container {
-  background-color: black;
-  position: absolute;
+.character-presentation-container {
+  position: relative;
   width: 100vw;
   height: 50vw;
+  border: 1px dotted red;
 }
 
 /*------SPACER------*/
 
 #spacer-bottom {
-  position: absolute;
   bottom: 0;
 }
 
 #spacer-top {
-  position: absolute;
   top: 0;
+}
+
+.character-presentation img {
+  position: absolute;
 }
 
 .character-presentation-text {
   font-family: "Harbour-Regular";
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 45px;
+  line-height: 50px;
+  color: aliceblue;
   text-transform: uppercase;
   text-align: center;
   position: absolute;
   text-shadow: 7px 7px 7px black;
-  right: 8%;
   top: 35%;
+}
+
+.presentation-text-right {
+  right: 8%;
+}
+
+.presentation-text-left {
+  left: 8%;
 }
 
 /*------KING------*/
 
-#king-character {
-  position: absolute;
+#character-left {
   bottom: 0;
-  width: 65%;
+  height: 100%;
+  opacity: 1;
 }
 
-#bg-king-l-2 {
-  position: absolute;
-  right: 0;
-  width: 70%;
-}
-
-#bg-king-l-1 {
-  position: absolute;
+#character-right {
   top: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  opacity: 1;
+}
+
+/*------BG------*/
+
+#bg-presentation-l-2 {
+  right: 0;
+  width: 60%;
+  height: 100%;
+}
+
+#bg-presentation-l-1 {
+  top: 0;
+  width: 150vh;
+}
+
+#bg-presentation-l-2-r {
+  top: 0;
+  width: 60%;
+}
+
+#bg-presentation-l-1-l {
+  width: 80%;
+  right: 0;
 }

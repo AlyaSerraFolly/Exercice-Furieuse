@@ -131,3 +131,35 @@ window.addEventListener("load", function () {
     ease: "power4.out",
   });
 });
+
+/*-----section-character-animation-----*/
+
+/*------King------*/
+
+gsap.from("#character-left", {
+  x: -250,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: "#character-presentation",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
+    ease: "power1.inOut",
+    duration: 0.5,
+  },
+});
+
+gsap.from("#character-right", {
+  x: 250,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: "#character-presentation",
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
+    scrub: true,
+    ease: "power1.inOut",
+    duration: 0.5,
+  },
+});

@@ -57,28 +57,66 @@
 .screen-1 {
   background-image: url(../img/horizontal_characters/h-background/background-1.png);
   background-size: cover;
+  z-index: 5;
+}
+
+.text-box-horizontal a {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 7px 7px 7px black;
+}
+
+.character-presentation-text-bottom {
+  font-family: "Katari-Medium";
+  text-shadow: 3px 8px 3px black;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.character-presentation-top {
+  font-family: "Harbour-Regular";
+  font-size: 55px;
+  text-transform: uppercase;
+  color: aliceblue;
+  text-align: center;
 }
 
 .screen-2 {
   background-image: url(../img/horizontal_characters/h-background/background-2.png);
   background-size: cover;
+  z-index: 4;
 }
 
 .screen-3 {
   background-image: url(../img/horizontal_characters/h-background/background-3.png);
   background-size: cover;
+  z-index: 3;
 }
 
 .screen-4 {
   background-image: url(../img/horizontal_characters/h-background/background-4.png);
   background-size: cover;
+  z-index: 2;
 }
 
 .screen {
   animation: bgScroll 20s linear infinite;
 }
 
-.screen img {
-  height: 50%;
+.screen {
+  height: 100%;
   width: fit-content;
+  position: relative;
+}
+
+.layer-1-horizontal {
+  position: absolute;
+  left: 0;
+}
+
+.layer-2-horizontal {
+  position: absolute;
+  left: 0;
 }

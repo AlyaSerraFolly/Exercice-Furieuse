@@ -177,3 +177,17 @@ gsap.to(".slider-track", {
   x: "-75%",
   ease: "sine.inOut",
 });
+
+/*-----slider-LAYERS-----*/
+
+gsap.to(".layer-1-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "middle",
+    end: "+=40%",
+    scrub: true,
+    markers: true,
+  },
+  x: "-75%",
+  ease: "sine.inOut",
+});

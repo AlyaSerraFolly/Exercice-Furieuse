@@ -217,3 +217,69 @@ gsap.to(".layer-3-horizontal", {
   x: "10%",
   ease: "sine.inOut",
 });
+
+gsap.to(".layer-4-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "middle",
+    end: "+=110%",
+    scrub: true,
+    markers: true,
+  },
+  x: "-10%",
+  ease: "sine.inOut",
+});
+
+/*-----slider-LAYERS-SECTION-2-----*/
+
+gsap.to(".layer-11-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=30%",
+    end: "+=90%",
+    scrub: true,
+    markers: true,
+  },
+  scale: 1.1,
+  x: "50%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-8-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=50%",
+    end: "+=90%",
+    scrub: true,
+    markers: true,
+  },
+
+  scale: 1.3,
+  x: "50%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-6-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=20%",
+    end: "=80%",
+    scrub: true,
+    markers: true,
+  },
+  x: "30%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-12-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=50%",
+    end: "+=80%",
+    scrub: true,
+    markers: true,
+  },
+  scale: 1.3,
+  x: "50%",
+  ease: "sine.inOut",
+});

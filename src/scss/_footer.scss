@@ -1,0 +1,63 @@
+.footer .footer-container {
+  background-color: black;
+  height: 100vh;
+  width: 100vh;
+  overflow: hidden;
+}
+
+.book-image img {
+  width: 750px;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-logo img {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+
+.title-library {
+  font-family: "Harbour-Regular";
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.text-library {
+  padding-top: 10px;
+}
+
+.footer-text-container {
+  top: 54%;
+  max-width: 500px;
+  position: absolute;
+}
+
+.footer-text-container {
+  margin-left: 25%;
+  position: relative;
+  color: white;
+  font-family: "Katari-Medium";
+  text-transform: capitalize;
+}
+
+.footer-btn {
+  width: max-content;
+  margin-top: 5%;
+  padding: 15px;
+  border: solid white 1px;
+  font-family: "Harbour-Regular";
+  font-size: 22px;
+  color: white;
+  transition: linear 0.2s;
+}
+
+.footer-btn:hover {
+  background-color: white;
+  color: black;
+}

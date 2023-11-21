@@ -1,0 +1,19 @@
+.nav-container {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  z-index: 1000;
+  width: 19%;
+}
+
+.nav-container a {
+  font-family: "Katari-Medium";
+  text-decoration: none;
+  padding-left: 5%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.nav-container ul {
+  mix-blend-mode: difference;
+}

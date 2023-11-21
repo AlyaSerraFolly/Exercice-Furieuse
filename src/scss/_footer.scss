@@ -1,49 +1,51 @@
-.footer .footer-container {
-  background-color: black;
-  height: 100vh;
-  width: 100vh;
-  overflow: hidden;
-}
-
-.book-image img {
-  width: 750px;
-  margin-top: 3%;
-  margin-left: 5%;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-logo img {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-}
-
 .title-library {
   font-family: "Harbour-Regular";
   font-size: 22px;
-  padding-top: 20px;
+  padding-top: 100px;
+  color: white;
 }
 
 .text-library {
   padding-top: 10px;
-}
-
-.footer-text-container {
-  top: 54%;
-  max-width: 500px;
-  position: absolute;
-}
-
-.footer-text-container {
-  margin-left: 25%;
-  position: relative;
+  width: 500px;
   color: white;
   font-family: "Katari-Medium";
   text-transform: capitalize;
+}
+
+.container-footer-text {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30%;
+  padding-top: 30%;
+}
+
+.container-footer-content {
+  height: 100vh;
+}
+
+.footer-logo {
+  display: block;
+  padding-bottom: 15%;
+}
+
+.footer-logo img {
+  display: block;
+}
+
+.col-6 {
+  border: red solid 2px;
+  height: 100vh;
+}
+
+.container-img-footer {
+  display: flex;
+}
+
+.container-img-footer img {
+  flex-direction: row;
+  width: 40vw;
+  padding: 30px;
 }
 
 .footer-btn {
@@ -60,4 +62,28 @@
 .footer-btn:hover {
   background-color: white;
   color: black;
+}
+
+.footer-bottom-container {
+  border-top: 1px solid white;
+}
+
+.footer-bottom-container .footer-creddit {
+  font-size: 30px;
+  color: white;
+}
+
+.container-footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container-image-book img {
+  width: 20px;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
 }

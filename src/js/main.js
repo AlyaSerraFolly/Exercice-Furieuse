@@ -188,6 +188,32 @@ gsap.to(".layer-1-horizontal", {
     scrub: true,
     markers: true,
   },
-  x: "-75%",
+  scale: 1.2,
+  x: "-35%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-2-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "middle",
+    end: "+=60%",
+    scrub: true,
+    markers: true,
+  },
+  scale: 1.1,
+  x: "35%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-3-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "middle",
+    end: "+=40%",
+    scrub: true,
+    markers: true,
+  },
+  x: "10%",
   ease: "sine.inOut",
 });

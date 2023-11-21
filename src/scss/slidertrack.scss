@@ -37,7 +37,6 @@
 .slider-track {
   height: 100%;
   display: inline-flex;
-  border: 5px solid red;
   border-radius: 5px;
 }
 
@@ -47,7 +46,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
 }
 
 .slider-track .screen-2 {
@@ -61,7 +59,7 @@
 }
 
 .text-box-horizontal a {
-  max-width: 400px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   text-shadow: 7px 7px 7px black;
@@ -70,14 +68,14 @@
 .character-presentation-text-bottom {
   font-family: "Katari-Medium";
   text-shadow: 3px 8px 3px black;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
 
 .character-presentation-top {
   font-family: "Harbour-Regular";
-  font-size: 55px;
+  font-size: 80px;
   text-transform: uppercase;
   color: aliceblue;
   text-align: center;
@@ -118,5 +116,19 @@
 
 .layer-2-horizontal {
   position: absolute;
-  left: 0;
+  left: 5%;
+  scale: 1.03;
+  z-index: 2;
+}
+
+.layer-3-horizontal {
+  position: absolute;
+  right: 30%;
+  scale: 1.03;
+}
+
+.layer-4-horizontal {
+  position: absolute;
+  right: -50%;
+  scale: 1.6;
 }

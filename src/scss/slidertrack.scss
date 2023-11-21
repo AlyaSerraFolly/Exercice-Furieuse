@@ -1,0 +1,84 @@
+/* =======================SPACER==================================== */
+.spacer {
+  height: 100vh;
+  margin-block: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc33,
+    #606dbc33 10px,
+    #606dbc00 10px,
+    #606dbc00 20px
+  );
+}
+
+.h-50 {
+  height: 50vh;
+}
+.h-75 {
+  height: 75vh;
+}
+.h-100 {
+  height: 100vh;
+}
+
+/* slider mask */
+.slider-mask {
+  border: 5px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* slider track */
+.slider-track {
+  height: 100%;
+  display: inline-flex;
+  border: 5px solid red;
+  border-radius: 5px;
+}
+
+/* slider item (screen) */
+.slider-track .screen {
+  width: calc(120vw - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.slider-track .screen-2 {
+  width: calc(190vw - 30px);
+}
+
+.screen-1 {
+  background-image: url(../img/horizontal_characters/h-background/background-1.png);
+  background-size: cover;
+}
+
+.screen-2 {
+  background-image: url(../img/horizontal_characters/h-background/background-2.png);
+  background-size: cover;
+}
+
+.screen-3 {
+  background-image: url(../img/horizontal_characters/h-background/background-3.png);
+  background-size: cover;
+}
+
+.screen-4 {
+  background-image: url(../img/horizontal_characters/h-background/background-4.png);
+  background-size: cover;
+}
+
+.screen {
+  animation: bgScroll 20s linear infinite;
+}
+
+.screen img {
+  height: 50%;
+  width: fit-content;
+}

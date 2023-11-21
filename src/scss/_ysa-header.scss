@@ -6,9 +6,8 @@
 
 #logo {
   position: fixed;
-  top: -400;
+  top: -40%;
   bottom: 0;
-  scale: 0.9;
 }
 
 #portal {
@@ -45,11 +44,6 @@
   position: absolute;
   bottom: -200;
   z-index: 1;
-}
-
-#logo {
-  position: absolute;
-  bottom: 0;
 }
 
 .background-parallax {

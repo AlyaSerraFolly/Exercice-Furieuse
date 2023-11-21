@@ -151,8 +151,7 @@ gsap.from("#character-left", {
 });
 
 gsap.from("#character-right", {
-  x: 250,
-  opacity: 0,
+  x: 100,
   scrollTrigger: {
     trigger: "#character-presentation",
     start: "top top",
@@ -162,4 +161,19 @@ gsap.from("#character-right", {
     ease: "power1.inOut",
     duration: 0.5,
   },
+});
+
+/*-----slider-----*/
+
+gsap.to(".slider-track", {
+  scrollTrigger: {
+    trigger: ".slider-mask",
+    start: "top top",
+    end: "+=300%",
+    pin: true,
+    scrub: true,
+    markers: true,
+  },
+  x: "-75%",
+  ease: "sine.inOut",
 });

@@ -53,7 +53,7 @@
 }
 
 .slider-track .screen-4 {
-  width: 200vw;
+  width: 250vw;
 }
 
 .screen-1 {
@@ -121,7 +121,7 @@
 .layer-2-horizontal {
   position: absolute;
   left: 5%;
-  scale: 1.03;
+  scale: 0.9;
   z-index: 3;
 }
 
@@ -176,14 +176,14 @@
 
 .layer-14-horizontal {
   position: absolute;
-  left: 50%;
   bottom: 0;
+  top: 0;
   z-index: 2;
+  scale: 1.2;
 }
 
 .layer-15-horizontal {
   position: absolute;
-  left: 30%;
   bottom: 0;
   z-index: 2;
 }
@@ -197,24 +197,24 @@
 
 .layer-17-horizontal {
   position: absolute;
-  right: 10%;
+  right: -15%;
   z-index: 2;
 }
 
 .layer-18-horizontal {
   position: absolute;
-  right: 10%;
+  right: 55%;
   z-index: 3;
 }
 
 .layer-19-horizontal {
   position: absolute;
+  right: 36%;
   z-index: 4;
-  left: 15%;
 }
 
 .layer-20-horizontal {
   position: absolute;
-  right: 30%;
   z-index: 3;
+  right: 30%;
 }

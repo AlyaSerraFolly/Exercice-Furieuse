@@ -175,7 +175,7 @@ gsap.to(".layer-1-horizontal", {
     end: "+=40%",
     scrub: true,
   },
-  scale: 1.2,
+  scale: 1.1,
   x: "-35%",
   ease: "sine.inOut",
 });
@@ -220,11 +220,11 @@ gsap.to(".layer-11-horizontal", {
   scrollTrigger: {
     trigger: ".slider-track",
     start: "+=30%",
-    end: "+=90%",
+    end: "+=150%",
     scrub: true,
   },
   scale: 1.1,
-  x: "50%",
+  x: "45%",
   ease: "sine.inOut",
 });
 
@@ -255,11 +255,76 @@ gsap.to(".layer-6-horizontal", {
 gsap.to(".layer-12-horizontal", {
   scrollTrigger: {
     trigger: ".slider-track",
-    start: "+=50%",
-    end: "+=80%",
+    start: "+=20%",
+    end: "+=150%",
     scrub: true,
   },
-  scale: 1.3,
-  x: "50%",
+  x: "60%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-14-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=10%",
+    end: "+=350%",
+    scrub: true,
+  },
+  scale: 0.9,
+  x: "180%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-15-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "=100%",
+    end: "+=350%",
+    scrub: true,
+  },
+  x: "80%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-16-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=10%",
+    end: "+=650%",
+    scrub: true,
+    scale: 0.9,
+  },
+  x: "80%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-17-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=0%",
+    end: "+=0%",
+    scrub: true,
+  },
+  x: "60%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-18-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=0%",
+    end: "+=10%",
+    scrub: true,
+  },
+  x: "60%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".layer-13-horizontal", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    scrub: true,
+  },
+  scale: 1.4,
   ease: "sine.inOut",
 });

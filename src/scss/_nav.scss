@@ -3,6 +3,7 @@
   top: 2%;
   right: 2%;
   z-index: 1000;
+  color: rgb(155, 64, 91);
   width: 19%;
 }
 
@@ -12,8 +13,4 @@
   padding-left: 5%;
   cursor: pointer;
   z-index: 1000;
-}
-
-.nav-container ul {
-  mix-blend-mode: difference;
 }
